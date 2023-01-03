@@ -1,13 +1,14 @@
-* {
+/* whole page styling */
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* background color styling */
 body {
     background-color: #d9dcd6;
 }
-
+/* header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* main background photo styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* section photo styliing */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -187,7 +188,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* footer styling */
 .footer {
     padding: 30px;
     clear: both;
